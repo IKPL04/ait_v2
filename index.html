@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- варінт третій !!!основний!!! (підключення откремого файлу)   -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>ait_v2</title>
+   <!--варіант перший (теg style)
+   <style>
+      пишемо стиль css */
+   </style>-->
+</head>
+
+<body>
+   <!-- анатомія вкладеності -->
+   <!-- БАтьківський елемен для тегів Р та SPAN -->
+   <div>
+      <!-- Дочірний елемент першого рівня/безпосередній відносно тегу DIV-->
+      <p>
+         <!-- Дочірний елемент першого рівня/безпосередній для тегу P та 
+         елемент другого рівня(вкладеності) відносно тегу DSV-->
+         <span></span>
+      </p>
+   </div>
+
+
+   <!--атрибути надалі приклади
+      class="імя імя." в значенні вказуємо довільне ім'я класу(сів). 
+      однакових класів може бути скіки завгодно
+   правила нвписання імені класу
+1) тільки прописні(маленькі) літ
+2) тіки анг 
+3) пробіли в імені класу (коли в імені більше одного слова) заміняємо на - (дефіз) 
+4) довільне ім'я(але логічне) - описує ций об'єкт-->
+
+   <!--<div class="text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+         sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+         tempora?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+         sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+         tempora?</p>
+   </div>-->
+   <!--
+   <div class="text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+         sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+         tempora?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+         sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+         tempora?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+            sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+            tempora?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+            sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+            tempora?</p>
+   </div>-->
+   <!--<div class="our-advanteges">
+
+   </div>
+
+   фтрибут class може мати безліч значень розділених пробілом -->
+   <!--<div class=" text our-advanteges">
+
+   </div>-->
+
+   <!-- атрибут ID -->
+   <!--ЗНАЧЕННЯ ІD МАЄ БУТИ УНІКАЛЬНИМ НА СТОРІНЦІ!!!-->
+   <!--<div id="block"></div>-->
+
+   <!--правила нвписання імені ID
+   1) тільки прописні(маленькі) літ
+   2) тіки анг 
+   3) пробіли в імені класу (коли в імені більше одного слова) заміняємо на - (дефіз) 
+   4) довільне ім'я(але логічне) - описує ций об'єкт-->
+
+   <!-- може бути, аде не варто -->
+   <!--<div class="block"></div>-->
+
+   <!-- додаткові атрибути -->
+   <!--title - довільний текст підказеи, яка з'являється при наведенні на об'єкт-->
+   <!-- alt - довільний текст(опис) зображення -->
+   <!--<a href="" title="я підказка" target="_blank">
+   я посилання
+</a>
+<img title="" src="" alt="опис злюраження">-->
+
+   <!-- взаэмодія HREF + ID -->
+
+   <!--<?php echo $text?>-->
+   <!-- <?php echo $text?> - змінна(не тіки така),яка зазвичай заміннює параграфи тексту -->
+   <!--<div id="top" class="text">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos maxime quod laboriosam deserunt quasi
+      sapiente fuga qui ab dolores vel nisi recusandae dolorum vero assumenda repudiandae, possimus, incidunt
+      tempora?</p>
+</div>
+<a href="#top" class="link">наверх ^</a>-->
+
+
+   <!-- введення в CSS -->
+
+   <h1>я заголовок</h1>
+   <h2>підроздфли</h2>
+   <ul>
+      <li>
+         <a href="">підроздфл1</a>
+      </li>
+      <li>
+         <a href="">підроздфл2</a>
+      </li>
+      <li>
+         <a href="">підроздфл 3</a>
+      </li>
+   </ul>
+   <div class="text">
+      <!-- другий варіант!
+         атрибут style (рядковий мктод) -->
+      <!--<p style="пишемо стилі">-->
+         
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto sapiente delectus rerum, illo
+         perspiciatis facere corporis ab fugiat! Odio sint sapiente totam enim at, veritatis repudiandae temporibus ea?
+         Consequatur.
+      </p>
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto sapiente delectus rerum, illo
+         perspiciatis facere corporis ab fugiat! Odio sint sapiente totam enim at, veritatis repudiandae temporibus ea?
+         Consequatur.
+      </p>
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto sapiente delectus rerum, illo
+         perspiciatis facere corporis ab fugiat! Odio sint sapiente totam enim at, veritatis repudiandae temporibus ea?
+         Consequatur.
+      </p>
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto sapiente delectus rerum, illo
+         perspiciatis facere corporis ab fugiat! Odio sint sapiente totam enim at, veritatis repudiandae temporibus ea?
+         Consequatur.
+      </p>
+   </div>
+  
+   
+   <div class="lesson">
+      <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto sapiente delectus rerum, illo
+         perspiciatis facere corporis ab fugiat! Odio sint sapiente totam enim at, veritatis repudiandae temporibus ea?
+         Consequatur.
+      </p>
+   </div>
+
+
+
+</body>
+
+</html>
